@@ -1,9 +1,9 @@
-package array;
+package unorderedArray;
 
 public class ArrayImplementation {
 
-    private Long[] array;
-    private int size;
+    protected Long[] array;
+    protected int size;
 
     public ArrayImplementation(int maxSize) {
         array = new Long[maxSize];
