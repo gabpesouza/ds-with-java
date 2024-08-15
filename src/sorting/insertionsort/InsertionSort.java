@@ -18,7 +18,7 @@ public class InsertionSort extends ArrayImplementation {
                 this.array[in] = this.array[in - 1];
                 in--;
             }
-
+            
             this.array[in] = temp;
         }
     }
